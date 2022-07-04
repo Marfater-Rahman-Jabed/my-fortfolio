@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -10,20 +11,23 @@ h1 {
     color: orange;
 }
 
-.divv {
+.half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 
 
 }
 
-.divv img {
+.half-width img {
     width: 80%;
 
 }
 
 section {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .clr {
@@ -34,4 +38,16 @@ section {
     color: white;
     font-weight: 700;
     padding: 10px 40px;
+}
+
+.section-2 {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+p {
+    padding-right: 20%;
 }
